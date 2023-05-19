@@ -1,0 +1,68 @@
+.button{
+    background-color: rgba(255, 0, 0, 0);
+    border: 3px solid rgb(255, 72, 0); 
+    padding: 15px;
+    font-size:20px ;
+    color: rgb(255, 72, 0);  
+    border-radius: 5px;
+}
+.one{
+    color: white;
+    background: #2435A1;
+    height: 65vh;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
+}
+.quote{
+    padding:15px ;
+    font-size:20px ;
+    background-color:rgb(255, 72, 0);  
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+}
+.two{
+    margin: 10%;
+}
+.card{
+
+    position: relative;
+height: 300px;
+    background-image: url(../Pages/images/card1.svg);
+}
+.cardButton{
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 1px solid red;
+    color: red;
+    background-color: rgba(240, 248, 255, 0);
+}
+.icons{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+.sale{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 5px;
+    background-color: rgb(255, 72, 0);
+    padding: 5px 10px;
+    color: white;
+}
+.card1{
+    position: relative;
+height: 300px;
+    background-image: url(../Pages/images/card2.svg);
+}
+.card2{
+    position: relative;
+height: 300px;
+    background-image: url(../Pages/images/card3.svg);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
